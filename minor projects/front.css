@@ -1,0 +1,15 @@
+body{
+    background-image: url("library.jpg");
+    opacity: 0.6;
+     background-repeat: no-repeat; 
+    background-size: cover; 
+     background-attachment: fixed; 
+    
+
+} 
+.head{
+    color: aqua;
+}
+.main{
+    color: aqua;
+}
