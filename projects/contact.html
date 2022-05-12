@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>University Website</title>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="material-icons" onclick="hideMenu()">close</i>
+				<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="course.html">Course</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			    </ul>
+			</div>
+			<i class="material-icons" onclick="showMenu()">menu</i>
+		</nav>
+		<h1>Contact Us</h1>
+
+	</section>
+
+
+<!----------------contact us------------------->
+
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d56837.17273604314!2d88.49461420000002!3d27.08310030000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1630329274658!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+
+	<section class="contact-us"> 
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="material-icons">home</i>
+					<span>
+						<h5>XYZ road, ABC building</h5>
+						<p>New Delhi</p>
+					</span>
+				</div>
+				<div>
+					<i class="material-icons">phone</i>
+					<span>
+						<h5>+91 84985 95859</h5>
+						<p>Monday to Saturday, 10:00 AM to 6:00 PM</p>
+					</span>
+				</div>
+				<div>
+					<i class="material-icons">mail</i>
+					<span>
+						<h5>willthomp@gmail.com</h5>
+						<p>Email your query</p>
+					</span>
+				</div>
+			</div>
+			<div class="contact-col">
+				<form action="form-handler.php" method="post">
+					<input type="text" name="name" placeholder="Enter Your Name" required="required">
+					<input type="email" name="email" placeholder="Enter Email Address" required=>
+					<input type="text" name="subject" placeholder="Enter Your Subject" required>
+					<textarea rows="8" name="message" placeholder="Message"></textarea>
+					<button type="submit" class="hero-btn red-btn">Send Message</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+
+
+<!----------------Footer------------------->
+
+	<section class="footer"> 
+		<h4>About Us</h4>
+		<p>hdf slkfdjj flkkjfllfjdoijf asdfjoifj aosfjoisf lksdf oiajf alksf oisdfj;ksfjlksdjfoaijooi<br>werj klf alsfjoie efk asifaofijaslkfdjlskfdj;lsd foiljrwqpwoirjwofalksjf;laksjfd flkjal;skfjaldsfk sdfjoifasdfnk </p>
+		<div class="icons">
+			<i class="material-icons">facebook</i>
+			<i class="material-icons">telegram</i>
+			<i class="material-icons">apple</i>
+			<i class="material-icons">snapchat</i>
+		</div>
+		<p>Made with <i class="material-icons" id="heart">favorite_border</i> by ABHI</p>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------Javascript for toggle menu------------->
+<script type="text/javascript">
+	var navLinks = document.getElementById('navLinks')
+
+	function showMenu() {
+		navLinks.style.right = "0";
+	}
+	function hideMenu() {
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+</body>
+</html>
